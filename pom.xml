@@ -10,6 +10,7 @@
 		<module>freedom-study-solrj</module>
 		<module>freedom-study-spring</module>
 		<module>freedom-study-jquery</module>
+		<module>freedom-study-activiti</module>
 	</modules>
 
 	<properties>
