@@ -4,6 +4,7 @@
 ## 项目概略
 * freedom-study-parent **父模块** **pom**
 	* freedom-study-solrj **验证使用solrj访问solr** **jar**
+	* freedom-study-jquery **jquery的学习项目** *war*
 	* freedom-study-spring **spring技术学习相关的项目** **pom**
 		* freedom-study-spring-javaconfig **spring mvc java config 验证** **war**
 		* freedom-study-spring-message-converter **spring mvc 消息转换器学习** **war**
