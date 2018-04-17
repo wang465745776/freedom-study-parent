@@ -16,6 +16,7 @@
 	<modules>
 		<module>freedom-study-spring-javaconfig</module>
 		<module>freedom-study-spring-message-converter</module>
+		<module>freedom-study-spring-view-resolver</module>
 	</modules>
 
 	<dependencies>
