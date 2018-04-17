@@ -1,5 +1,5 @@
 # freedom-study-parent
-此项目为一些技术学习的项目。
+此项目为一些技术学习、技术验证的项目。
 
 ## 项目概略
 * freedom-study-parent **父模块** **pom**

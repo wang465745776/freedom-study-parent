@@ -1,22 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<artifactId>freedom-study-jquery</artifactId>
+	<name>freedom-study-jquery</name>
+	<description>此项目用于学习jquery</description>
+
 	<parent>
 		<groupId>com.wangguitang</groupId>
 		<artifactId>freedom-study-parent</artifactId>
 		<version>1.0.0</version>
 	</parent>
-
-	<artifactId>freedom-study-spring</artifactId>
-	<packaging>pom</packaging>
-
-	<properties>
-	</properties>
-
-	<modules>
-		<module>freedom-study-spring-javaconfig</module>
-		<module>freedom-study-spring-message-converter</module>
-	</modules>
 
 	<dependencies>
 		<!-- Spring依赖 -->
@@ -56,6 +49,18 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
+		</dependency>
+
+		<!-- servlet api -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+		</dependency>
+
+		<!-- 阿里巴巴的json工具 -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
 		</dependency>
 	</dependencies>
 </project>
