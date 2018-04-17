@@ -21,11 +21,11 @@ import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
  * 声明DispatcherServlet的上下文
  * @author freedom wang
  * @date 2018年4月16日下午4:25:23
- * @since 3.0.0
+ * @since 1.0.0
  */
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = { "com.wangguitang.freedom.study.spring.javaconfig.controller" })
+@ComponentScan(basePackages = { "com.wangguitang.freedom.study.jquery" })
 public class WebConfig implements WebMvcConfigurer {
 
 	/**
@@ -33,7 +33,7 @@ public class WebConfig implements WebMvcConfigurer {
 	 * @return
 	 * @author freedom wang
 	 * @date 2018年4月16日下午4:41:49
-	 * @since 3.0.0
+	 * @since 1.0.0
 	 */
 	@Bean
 	public InternalResourceViewResolver viewResolver() {
@@ -46,7 +46,7 @@ public class WebConfig implements WebMvcConfigurer {
 	 * @param converters
 	 * @author freedom wang
 	 * @date 2018年4月17日上午10:09:27
-	 * @since 3.0.0
+	 * @since 1.0.0
 	 */
 	@Override
 	public void extendMessageConverters(List<HttpMessageConverter<?>> converters) {

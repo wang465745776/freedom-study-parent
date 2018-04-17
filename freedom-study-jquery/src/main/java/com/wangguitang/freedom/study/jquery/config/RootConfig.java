@@ -9,7 +9,7 @@ import com.wangguitang.freedom.study.jquery.entity.PersonBean;
  * 声明根上下文
  * @author freedom wang
  * @date 2018年4月16日下午4:28:19
- * @since 3.0.0
+ * @since 1.0.0
  */
 @Configuration
 public class RootConfig {

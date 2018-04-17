@@ -63,4 +63,21 @@
 			<artifactId>fastjson</artifactId>
 		</dependency>
 	</dependencies>
+	<packaging>war</packaging>
+
+	<build>
+		<plugins>
+			<!-- Tomcat插件 -->
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<configuration>
+					<path>/jquery</path>
+					<charset>UTF-8</charset>
+					<port>8080</port>
+					<uriEncoding>UTF-8</uriEncoding>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>

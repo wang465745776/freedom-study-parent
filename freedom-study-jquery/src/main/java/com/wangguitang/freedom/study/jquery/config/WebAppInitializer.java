@@ -6,7 +6,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
  * 初始化器。注册DispatcherServlet和使用Java Config配置
  * @author freedom wang
  * @date 2018年4月16日下午4:14:01
- * @since 3.0.0
+ * @since 1.0.0
  */
 public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
