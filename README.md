@@ -8,6 +8,9 @@
 	* freedom-study-spring **spring技术学习相关的项目** **pom**
 		* freedom-study-spring-javaconfig **spring mvc java config 验证** **war**
 		* freedom-study-spring-message-converter **spring mvc 消息转换器学习** **war**
+	* freedom-study-activiti  **[工作流activiti的学习项目]**  *[jar]*
+	* freedom-study-algoithm  **[算法的学习项目]**  *[jar]*
+	* freedom-study-design-pattern  **[设计模式的学习项目]**  *[jar]*
 		
 ## 导入到Eclipse的方法
 1. 先把项目Fork到自己的仓库
