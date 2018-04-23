@@ -13,6 +13,7 @@
 		<module>freedom-study-activiti</module>
 		<module>freedom-study-algorithm</module>
 		<module>freedom-study-design-pattern</module>
+		
 	</modules>
 
 	<properties>
